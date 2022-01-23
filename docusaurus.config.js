@@ -19,6 +19,7 @@ const config = {
    */
   organizationName: "growing-ada", // Usually your GitHub org/user name.
   projectName: "grdn", // Usually your repo name.
+  // sourceBranch: "master",
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
