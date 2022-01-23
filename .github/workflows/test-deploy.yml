@@ -18,5 +18,5 @@ jobs:
       - name: Test build
         working-directory: website
         run: |
-          npm install --frozen-lockfile
-          npm build
+          npm ci
+          npm run build
