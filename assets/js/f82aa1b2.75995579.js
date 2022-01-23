@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstake_pool=self.webpackChunkstake_pool||[]).push([[488],{7238:function(e,t,n){n.r(t),n.d(t,{default:function(){return a}});var r=n(7294),o={name:"Growing ADA",description:"The GRDN staking pool supports the Cardano (ADA) network",ticker:"GRDN",homepage:"https://growingada.org"};function a(){return r.createElement("pre",null,JSON.stringify(o))}}}]);
