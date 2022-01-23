@@ -12,16 +12,18 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <button
             className="button button--secondary button--lg"
             onClick={() => {
-              navigator.clipboard.writeText("asdfasdfsadfsf");
+              navigator.clipboard.writeText(
+                "6fb2a6d5ca6e78fda72b7372c9fe061ee54218ce4069325535a5e6a9"
+              );
             }}
           >
-            FUTURE POOL ID
+            6fb2a6d5ca6e78fda72b7372c9fe061ee54218ce4069325535a5e6a9
           </button>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -41,9 +43,9 @@ export default function Home(): JSX.Element {
           <iframe
             width="600"
             height="360"
-            src="https://js.adapools.org/widget.html?pool=TBD"
+            src="https://js.adapools.org/widget.html?pool=6fb2a6d5ca6e78fda72b7372c9fe061ee54218ce4069325535a5e6a9"
           >
-            <a href="https://adapools.org/pool/TBD"></a>
+            <a href="https://adapools.org/pool/6fb2a6d5ca6e78fda72b7372c9fe061ee54218ce4069325535a5e6a9"></a>
           </iframe>
         </div>
       </main>
